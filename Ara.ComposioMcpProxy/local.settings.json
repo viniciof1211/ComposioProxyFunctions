@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "COMPOSIO_MCP_URL": "https://backend.composio.dev/v3/mcp/<serverId>/mcp?user_id=<userId>",
+    "COMPOSIO_API_KEY_HEADER": "x-api-key",
+    "COMPOSIO_API_KEY": "<PUT-YOUR-KEY-HERE>",
+    "MCP_BLOCK_TOOL_NAMES": "ComposioBackend.TAVILY_SEARCH",
+    "MCP_ALLOW_TOOL_NAMES": ""
+  }
+}
