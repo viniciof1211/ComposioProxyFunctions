@@ -3,9 +3,9 @@
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-    "COMPOSIO_MCP_URL": "https://backend.composio.dev/v3/mcp/<serverId>/mcp?user_id=<userId>",
+    "COMPOSIO_MCP_URL": "https://backend.composio.dev/v3/mcp/932940df-3d12-4828-97a1-e350298063ae/mcp?user_id=pg-test-27279e55-62eb-48fb-9769-f7404474ae3d",
     "COMPOSIO_API_KEY_HEADER": "x-api-key",
-    "COMPOSIO_API_KEY": "<PUT-YOUR-KEY-HERE>",
+    "COMPOSIO_API_KEY": "ak_hce6x1IofGjky2ztYv2a",
     "MCP_BLOCK_TOOL_NAMES": "ComposioBackend.TAVILY_SEARCH",
     "MCP_ALLOW_TOOL_NAMES": ""
   }
