@@ -1,0 +1,34 @@
+[
+  {
+    "name": "McpProxy",
+    "scriptFile": "Ara.ComposioMcpProxy.dll",
+    "entryPoint": "McpProxyFunction.Run",
+    "language": "dotnet-isolated",
+    "properties": {
+      "IsCodeless": false
+    },
+    "bindings": [
+      {
+        "name": "req",
+        "direction": "In",
+        "type": "httpTrigger",
+        "authLevel": "Function",
+        "methods": [
+          "get",
+          "post",
+          "put",
+          "patch",
+          "delete",
+          "options"
+        ],
+        "route": "mcp/{*rest}",
+        "properties": {}
+      },
+      {
+        "name": "$return",
+        "type": "http",
+        "direction": "Out"
+      }
+    ]
+  }
+]
